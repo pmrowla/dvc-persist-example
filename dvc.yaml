@@ -1,0 +1,7 @@
+stages:
+  foo:
+    cmd: echo foo >> foo
+    always_changed: true
+    outs:
+    - foo:
+        persist: true
